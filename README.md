@@ -441,24 +441,12 @@ support when using OSM software. If you are running a private server you should 
 
 #### `GET` `/`
 
-HTTP Healthcheck URL, currently returns `Hello World!`
+Healthcheck URL, currently returns `Hello World!`
 
 *Example*
 
 ```bash
 curl -X GET 'http://localhost:8000/
-```
-
-#### `GET` `/health`
-
-Database Healthcheck URL, returns a JSON object.
-
-If the database is unhealthy or overloaded this endpoint will fail
-
-*Example*
-
-```bash
-curl -X GET 'http://localhost:8000/health
 ```
 
 ---
